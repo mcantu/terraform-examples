@@ -13,7 +13,7 @@ jobs:
     name: terraform-scan
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Run Checkov Terraform Scan
         id: checkov
